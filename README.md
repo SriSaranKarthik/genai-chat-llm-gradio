@@ -28,10 +28,14 @@ Building a user-friendly application that allows seamless interaction with a lar
 ### **STEP 4: Deploy the Application**
 - Run the application locally with `demo.launch()`.
 - Optionally deploy it to the cloud for broader accessibility.
-
 ---
 
 ### PROGRAM:
+```
+Name: R Guruprasad
+Register No: 212222240033
+```
+
 ```py
 import gradio as gr
 from transformers import pipeline
@@ -50,7 +54,7 @@ def chat_with_llm(user_input):
 
 # Design the Gradio Blocks UI
 with gr.Blocks() as demo:
-    gr.Markdown("# 🤖 Chat with LLM")
+    gr.Markdown("Chat with LLM")
     with gr.Row():
         with gr.Column():
             user_input = gr.Textbox(label="Enter your query:", placeholder="Type your message here...")
@@ -66,7 +70,9 @@ demo.launch()
 
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/9f7c390c-8aa5-4694-a92f-62cf4aacb5b9)
+![image](https://github.com/user-attachments/assets/79c36ada-cb9c-4a3c-9452-95f2ce847668)
+
 
 ### RESULT:
 The "Chat with LLM" application was successfully designed and deployed using the Gradio Blocks framework, allowing seamless user interaction with a large language model.
+
